@@ -2,7 +2,7 @@
   <img src="https://runway.nyc3.digitaloceanspaces.com/assets/github/cover_runway_puredata_github.jpg">
 </p>
 
-# Runway + Processing
+# Runway + PureData
 
 A collection of examples and tutorials on how to use [Runway](https://runwayapp.ai/) with [Pure Data](https://puredata.info/).
 
