@@ -1,12 +1,10 @@
 <p align="center">
-  <img src="resources/runway_icon.png" width="95">
-  <img src="resources/pd-logo.png" width="95">
+  <img src="https://runway.nyc3.digitaloceanspaces.com/assets/github/cover_runway_puredata_github.jpg">
 </p>
 
-# Runway + Pure Data
+# Runway + Processing
 
-A collection of stand alone examples connecting [Runway](https://runwayml.com/) to [Pure Data](https://puredata.info/).
-Examples are separated by current available models.
+A collection of examples and tutorials on how to use [Runway](https://runwayapp.ai/) with [Pure Data](https://puredata.info/).
 
 ## Examples
 
