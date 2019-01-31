@@ -52,7 +52,7 @@ sudo apt-get install pd-purest-json
 
 ## Step 3
 
-Open Runway, go to the Model Direcotry, and select the PoseNet model. Add it to a new Workspace.
+Open Runway, go to the Model Directory, and select the PoseNet model. Add it to a new Workspace.
 
 ## Step 4
 
