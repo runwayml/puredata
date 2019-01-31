@@ -128,7 +128,7 @@ In the following example, the "data" object is decoded by the top 3 objects. The
   <img src="screenshots/runway-posenet3.png">
 </p>
 
-### Step 11
+## Step 11
 
 The output of the ```runway-posenet``` abstraction is:
 * Outlet 1: pose data (pose key, x, y)
