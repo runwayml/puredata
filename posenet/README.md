@@ -137,7 +137,7 @@ The output of the ```runway-posenet``` abstraction is:
 
 Close the ```runway-posenet``` abstraction and return to ```posenet_example.pd```.
 
-### Step 12
+## Step 12
 
 Turn on edit mode and change the http address in ```runway-posenet``` to match the Runway Route address from Step 5 above.
 
