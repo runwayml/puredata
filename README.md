@@ -8,12 +8,13 @@ A collection of examples and tutorials on how to use [Runway](https://runwayapp.
 
 ## PureData Prerequisite
 
-You will need to install the purest_json external (available in deken).
+You will need to install the purest_json external (available in deken). Installation is described in the tutorial text.
 
 ## Examples
 
 - Skeleton tracking with PoseNet:
   - [Code](/posenet)
+  - [Tutorial](/posenet/README.md)
 
 ## Contributing
 

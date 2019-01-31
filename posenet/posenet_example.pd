@@ -1,7 +1,7 @@
-#N canvas 0 23 578 467 10;
-#X obj 271 51 metro 100;
-#X obj 271 20 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
-1;
+#N canvas 0 60 578 467 10;
+#X obj 273 64 metro 100;
+#X obj 273 41 tgl 15 0 empty empty empty 17 7 0 10 -4034 -1 -1 0 1
+;
 #X obj 273 152 route nose leftEye rightEye leftEar rightEar;
 #X obj 273 179 unpack f f;
 #X obj 274 208 /;
@@ -13,31 +13,33 @@
 #X obj 326 304 osc~;
 #X obj 326 280 line~;
 #X obj 326 232 * 100;
-#X obj 306 365 *~;
-#X obj 307 396 *~;
-#X obj 400 278 vsl 15 128 0 0.5 0 0 empty empty vol 0 -9 0 10 -4034
+#X obj 291 347 *~;
+#X obj 292 378 *~;
+#X obj 438 224 vsl 15 128 0 0.5 0 0 empty empty vol 0 -9 0 10 -4034
 -1 -1 0 1;
-#X obj 305 426 dac~;
-#X msg 467 44 \; pd dsp 1;
-#X obj 400 116 nbx 4 14 -1e+37 1e+37 0 0 empty empty width 0 -8 0 10
--262144 -1 -1 600 256;
-#X obj 512 114 nbx 4 14 -1e+37 1e+37 0 0 empty empty height 0 -8 0
-10 -262144 -1 -1 400 256;
+#X obj 290 408 dac~;
+#X msg 479 403 \; pd dsp 1;
+#X obj 395 129 nbx 4 14 -1e+37 1e+37 0 0 empty empty width 0 -8 0 10
+-262144 -1 -1 0 256;
+#X obj 515 129 nbx 4 14 -1e+37 1e+37 0 0 empty empty height 0 -8 0
+10 -262144 -1 -1 0 256;
 #X msg 326 256 \$1 20;
 #X msg 274 274 \$1 20;
-#X obj 271 84 runway-posenet http://localhost:8000/data;
-#X obj 467 20 loadbang;
-#X text 18 164 1 create a PoseNet model in Runway;
-#X text 18 187 2 select http output;
-#X text 18 294 server data path;
-#X text 18 210 3 install purest_json external in Pd;
-#X text 18 233 4 add the purest_json directory to your;
-#X text 18 256 Pd path;
-#X text 17 274 5 change runway-posenet to point to;
+#X obj 273 91 runway-posenet http://localhost:8000/data;
+#X obj 479 379 loadbang;
+#X text 18 70 1 Create a PoseNet model in Runway;
+#X text 18 110 3 Install purest_json external in Pd;
+#X text 18 130 4 Add the purest_json directory to your;
+#X text 38 150 Pd path;
 #X text 343 179 x and y data for nose;
 #X text 352 208 scale 0-1;
-#X obj 281 108 print;
-#X text 145 106 to see all bodyparts:;
+#X text 294 40 turn on metro to begin receiving data;
+#X text 30 42 RUNWAY -> Pd PoseNet Example;
+#X text 18 170 5 Change the argument in runway-posenet;
+#X text 38 190 to point to server data path;
+#X text 18 210 6 Toggle on the metro;
+#X text 18 230 7 Turn up the volume;
+#X text 18 90 2 Select HTTP output and run model;
 #X connect 0 0 22 0;
 #X connect 1 0 0 0;
 #X connect 2 0 3 0;

@@ -1,4 +1,4 @@
-#N canvas 785 131 450 693 10;
+#N canvas 785 75 450 693 10;
 #X obj 218 157 json-decode;
 #X obj 218 182 list trim;
 #X obj 218 207 route data;
@@ -20,7 +20,7 @@
 #X obj 222 527 route x y;
 #X obj 173 476 t b f;
 #X obj 169 569 pack s f f f;
-#X obj 316 520 symbol;
+#X obj 297 477 symbol;
 #X obj 169 594 list trim;
 #X obj 169 619 outlet;
 #X obj 317 401 outlet;
@@ -33,10 +33,10 @@
 #X obj 218 57 list;
 #X obj 295 5 loadbang;
 #X text 187 12 bang to read;
-#X text 19 31 posenet-http;
 #X text 19 53 by Joel Matthys;
 #X text 19 75 requires purest_json lib;
 #X text 104 644 output is: bodyPart x y score;
+#X text 19 31 runway-posenet;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
