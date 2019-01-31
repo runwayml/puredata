@@ -100,11 +100,11 @@ Click on it to see its contents.
   <img src="screenshots/runway-posenet2.png">
 </p>
 
-The ```rest``` object will queries the webpage for JSON data from Runway.
+The ```rest``` object queries the webpage for JSON data from Runway. The ```json-decode``` object parses the JSON data in order to route it appropriately in Pd.
 
 #### JSON Objects and Arrays
 
-Runway's output data is encoded into a series of JSONObjects and JSONArrays.
+Runway's output data is encoded into a series of JSON Objects and Arrays.
 
 JSON Objects are enclosed in curly brackets and indexed with keys in quotes:
 
@@ -131,9 +131,9 @@ In the following example, the "data" object is decoded by the top 3 objects. The
 ### Step 11
 
 The output of the ```runway-posenet``` abstraction is:
-  Outlet 1: pose data
-  Outlet 2: width
-  Outlet 3: height
+  Outlet 1: pose data (pose key, x, y)
+  Outlet 2: camera image width
+  Outlet 3: camera image height
 
 Close the ```runway-posenet``` abstraction and return to ```posenet_example.pd```.
 
@@ -155,7 +155,7 @@ Turn up the volume to hear the sound.
 
 ## Step 14
 
-This example is only tracking parts of the face, and only using the nose data from that. To see all of the body parts tracked by PoseNet, look at the output of your data in Runway or at the local http site described in Step 8 above. Change the ```route object``` to include the body part name you wish to include.
+This example is only tracking parts of the face, and only using the nose data from that. To see all of the body parts tracked by PoseNet, look at the output of your data in Runway or at the local http site described in Step 8 above. If you wish to use the data from a different body part, change the ```route object``` to include the pose key you wish to include.
 
 ## Step 15
 
