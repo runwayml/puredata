@@ -131,9 +131,9 @@ In the following example, the "data" object is decoded by the top 3 objects. The
 ### Step 11
 
 The output of the ```runway-posenet``` abstraction is:
-  Outlet 1: pose data (pose key, x, y)
-  Outlet 2: camera image width
-  Outlet 3: camera image height
+* Outlet 1: pose data (pose key, x, y)
+* Outlet 2: camera image width
+* Outlet 3: camera image height
 
 Close the ```runway-posenet``` abstraction and return to ```posenet_example.pd```.
 
