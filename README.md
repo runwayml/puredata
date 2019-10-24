@@ -2,7 +2,7 @@
   <img src="./assets/cover_runway_puredata_github.jpg">
 </p>
 
-# Runway + PureData
+# RunwayML + PureData
 
 A collection of examples and tutorials on how to use [RunwayML](https://runwayml.com/) with [Pure Data](https://puredata.info/).
 
