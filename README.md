@@ -4,7 +4,11 @@
 
 # Runway + PureData
 
-A collection of examples and tutorials on how to use [Runway](https://runwayapp.ai/) with [Pure Data](https://puredata.info/).
+A collection of examples and tutorials on how to use [RunwayML](https://runwayml.com/) with [Pure Data](https://puredata.info/).
+
+More RunwayML networking examples [here](https://learn.runwayml.com/#/networking/examples).
+
+🎉Community Contribution
 
 ## PureData Prerequisite
 
