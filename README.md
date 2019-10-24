@@ -16,9 +16,9 @@ You will need to install the purest_json external (available in deken). Installa
 
 ## Examples
 
-- Skeleton tracking with PoseNet:
-  - [Code](/posenet)
-  - [Tutorial](/posenet/README.md)
+### HTTP
+* [Skeleton Tracking with PoseNet](/posenet) by [Joel Matthys](http://joel.matthysmusic.com) 🎉
+
 
 ## Contributing
 
